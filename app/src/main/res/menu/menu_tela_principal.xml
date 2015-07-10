@@ -1,0 +1,30 @@
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".TelaPrincipal">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+</menu>
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/configurações"
+        android:title="@string/configuracoes"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/ajuda"
+        android:title="@string/ajuda"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/sobre"
+        android:title="@string/sobre"
+        android:showAsAction="ifRoom|withText"
+        />
+</menu>
